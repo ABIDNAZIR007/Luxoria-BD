@@ -1,0 +1,8 @@
+{
+  "name": "Luxuria BD — Shoes, Watches & Belts",
+  "description": "Curated lifestyle storefront for Luxuria BD featuring handcrafted leather shoes, precision timepieces, and full-grain belts with nationwide Cash on Delivery across Bangladesh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

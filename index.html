@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxuria BD — লাক্সুরিয়া বিডি | Shoes, Watches & Belts</title>
+    <meta name="description" content="Curated lifestyle storefront for Luxuria BD featuring handcrafted leather shoes, precision timepieces, and full-grain belts with nationwide Cash on Delivery across Bangladesh." />
+    <meta property="og:title" content="Luxuria BD — লাক্সুরিয়া বিডি | Shoes, Watches & Belts" />
+    <meta property="og:description" content="Curated lifestyle storefront for Luxuria BD featuring handcrafted leather shoes, precision timepieces, and full-grain belts with nationwide Cash on Delivery across Bangladesh." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Hind+Siliguri:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var saved = window.localStorage.getItem('luxuria_bd_theme_v1');
+          var parsed = saved ? JSON.parse(saved) : null;
+          var isDark =
+            parsed === 'dark' ||
+            (parsed !== 'light' &&
+              window.matchMedia &&
+              window.matchMedia('(prefers-color-scheme: dark)').matches);
+          if (isDark) {
+            document.documentElement.classList.add('dark');
+            document.documentElement.style.colorScheme = 'dark';
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#F8F7F4] dark:bg-[#121110] text-[#171614] dark:text-[#F3EFE8] antialiased selection:bg-[#8C6239]/20 dark:selection:bg-[#D4A77A]/25 selection:text-[#171614] dark:selection:text-[#F3EFE8]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
